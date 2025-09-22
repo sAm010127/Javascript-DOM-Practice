@@ -15,7 +15,6 @@ body{
 .main-container{
     margin-top: 5rem;
     padding: 2rem;
-   
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
@@ -34,7 +33,6 @@ body{
     width: 100%;
     border-bottom: 1px solid #ffffff;
     padding: 10px 5px;
-
 }
 .inputs-container form{
     display: flex;
@@ -47,7 +45,7 @@ button{
     border-radius: 7px;
     padding:  8px 12px;
     transition: 0.5s;
- }
+}
 button:hover{
     opacity: 0.7;
     cursor: pointer;
@@ -55,7 +53,8 @@ button:hover{
 .submit {
     background-color: rgba(3, 255, 196, 0.82);
     color: black;
-    width: max-content;
+    text-align: center;
+    width: 70px;
     font-weight: bold;
 }
 .edit{
@@ -86,7 +85,7 @@ table tr{
     align-items: baseline;
     border-bottom: 1px solid #a2a2a2;
     padding: 8px;
- }
+}
 table tr td,th{
     width: 25%;
 }
