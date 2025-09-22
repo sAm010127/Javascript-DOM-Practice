@@ -8,13 +8,15 @@
 </head>
 <body>
 <div class="main-container">
+    <h1 style="color: black;">Employee Form</h1>
     <div class="inputs-container">
         <form onsubmit="event.preventDefault(); store();" >
-            <input type="text" id="name" class="input-name" placeholder="Name" required>
-            <input type="text" id="lname" class="input-LName" placeholder="Last name" required>
+            <input type="text" pattern="[A-Za-z ]+" id="name" class="input-name" placeholder="Name" required>
+            <input type="text" pattern="[A-Za-z ]+" id="lName" class="input-LName" placeholder="Last name" required>
             <input type="date" id="date" class="input-date" placeholder="Date" required>
-            <button id="submit" class="submit">Save</button>
+            <button id="submit" class="submit">Save</button><br>
         </form>
+            <input type="search" pattern="[A-Za-z ]+" onclick="search()" id="search" class="input-search" placeholder="Search">
     </div>
     <table id="table-el" class="output-table">
         <thead>
